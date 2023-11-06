@@ -1,0 +1,17 @@
+.homeStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: space-around;
+    height: 6.25rem;
+}
+
+.homeProjects{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: space-around;
+    padding: 0.9375rem;
+    height: 12.5rem;
+    margin-top: 2.5rem;
+}

@@ -1,0 +1,19 @@
+.headerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  max-width: 64rem;
+  padding: 0.625rem;
+}
+
+.btnHeader {
+  width: 4.9714rem;
+  height: 1.9971rem;
+  color: var(--grey-0);
+  background-color: var(--grey-3);
+  padding: 0.3125rem 0.625rem;
+  border-radius: var(--radius-2);
+}

@@ -1,0 +1,32 @@
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.3125rem
+}
+
+.inputStyle{
+    width: 270px;
+    height: 3.125rem;
+    background-color: var(--grey-2);
+    border: 1px solid var(--grey-1);
+    border-radius: var(--radius-2);
+    padding-left: 0.625rem;
+    color: var(--grey-0);
+    
+    .inputStyle:hover{
+        border: 1px solid var(--grey-0);
+    }
+}
+
+.inputPasswordDiv{
+    position: relative;
+}
+
+.inputPasswordDiv > .inputDiv > button{
+    position: absolute;
+    background-color: var(--grey-2);
+    top:33px;
+    right: 5px;
+}
+

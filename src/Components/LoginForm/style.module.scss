@@ -1,0 +1,28 @@
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.9375rem;
+    width: 18.75rem;
+    height: 21.875rem;
+    background-color: var(--grey-2);
+    border-radius: var(--radius-2);
+
+    small{
+        font-size: 0.625rem;
+        color: var(--color-primary);
+        font-weight: var(--font-weight);
+        margin-top: 1.25rem;
+    }
+}
+
+.registerBtn{
+    width: 16.875rem;
+    height: 2.5rem;
+    padding: 0.3125rem;
+    background-color: var(--grey-1);
+    border-radius: var(--radius-2);
+    color: var(--grey-0);
+}

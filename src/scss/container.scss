@@ -1,0 +1,22 @@
+$mobile: 20rem;
+$desktop: 64rem;
+
+.container {
+
+  @media (min-width: $mobile) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 20rem;
+  }
+  @media (min-width: $desktop) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 64rem;
+  }
+}
+
