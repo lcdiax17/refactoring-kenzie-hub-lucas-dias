@@ -1,4 +1,4 @@
-<h1><a href="https://refactoring-hub.vercel.app/" target="blank" >Link do deploy</a></h1>
+<h1><a href="https://refactoring-hub.vercel.app/" target="_blank" >Link do deploy</a></h1>
 
 ##sobre o projeto:
 
